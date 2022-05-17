@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0993A9E627A29E4D0000B91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993A9E527A29E4D0000B91C /* AppDelegate.swift */; };
+		0993A9EF27A29E4D0000B91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0993A9EE27A29E4D0000B91C /* Assets.xcassets */; };
+		0993A9F227A29E4D0000B91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0993A9F027A29E4D0000B91C /* LaunchScreen.storyboard */; };
+		0993A9FF27A29F1D0000B91C /* AppCoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993A9FE27A29F1D0000B91C /* AppCoreCoordinator.swift */; };
+		0993AA0527A2A0530000B91C /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA0327A2A0530000B91C /* RegistroViewController.swift */; };
+		0993AA0627A2A0530000B91C /* RegistroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0993AA0427A2A0530000B91C /* RegistroViewController.xib */; };
+		0993AA0A27A2A0640000B91C /* RegistroCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA0927A2A0640000B91C /* RegistroCoordinator.swift */; };
+		0993AA1827A32F8C0000B91C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA1627A32F8C0000B91C /* HomeViewController.swift */; };
+		0993AA1927A32F8C0000B91C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0993AA1727A32F8C0000B91C /* HomeViewController.xib */; };
+		0993AA1F27A32FCC0000B91C /* ListaPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA1D27A32FCC0000B91C /* ListaPostsViewController.swift */; };
+		0993AA2027A32FCC0000B91C /* ListaPostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0993AA1E27A32FCC0000B91C /* ListaPostsViewController.xib */; };
+		0993AA2527A32FF30000B91C /* ListaCochesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA2427A32FF30000B91C /* ListaCochesViewController.swift */; };
+		0993AA2927A330370000B91C /* ListaCochesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0993AA2827A330370000B91C /* ListaCochesViewController.xib */; };
+		0993AA2C27A3307C0000B91C /* ListaCochesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA2B27A3307C0000B91C /* ListaCochesCoordinator.swift */; };
+		0993AA2F27A3308C0000B91C /* ListaPostsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA2E27A3308C0000B91C /* ListaPostsCoordinator.swift */; };
+		0993AA3227A331600000B91C /* HomeViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA3127A331600000B91C /* HomeViewCoordinator.swift */; };
+		0993AA5827A3FBC10000B91C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993AA5727A3FBC10000B91C /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0993A9E227A29E4D0000B91C /* MiUserDefault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiUserDefault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0993A9E527A29E4D0000B91C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0993A9EE27A29E4D0000B91C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0993A9F127A29E4D0000B91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0993A9F327A29E4D0000B91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0993A9FE27A29F1D0000B91C /* AppCoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoreCoordinator.swift; sourceTree = "<group>"; };
+		0993AA0327A2A0530000B91C /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		0993AA0427A2A0530000B91C /* RegistroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistroViewController.xib; sourceTree = "<group>"; };
+		0993AA0927A2A0640000B91C /* RegistroCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroCoordinator.swift; sourceTree = "<group>"; };
+		0993AA1627A32F8C0000B91C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0993AA1727A32F8C0000B91C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0993AA1D27A32FCC0000B91C /* ListaPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPostsViewController.swift; sourceTree = "<group>"; };
+		0993AA1E27A32FCC0000B91C /* ListaPostsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListaPostsViewController.xib; sourceTree = "<group>"; };
+		0993AA2427A32FF30000B91C /* ListaCochesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCochesViewController.swift; sourceTree = "<group>"; };
+		0993AA2827A330370000B91C /* ListaCochesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListaCochesViewController.xib; sourceTree = "<group>"; };
+		0993AA2B27A3307C0000B91C /* ListaCochesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCochesCoordinator.swift; sourceTree = "<group>"; };
+		0993AA2E27A3308C0000B91C /* ListaPostsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPostsCoordinator.swift; sourceTree = "<group>"; };
+		0993AA3127A331600000B91C /* HomeViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCoordinator.swift; sourceTree = "<group>"; };
+		0993AA5727A3FBC10000B91C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0993A9DF27A29E4D0000B91C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0993A9D927A29E4D0000B91C = {
+			isa = PBXGroup;
+			children = (
+				0993A9E427A29E4D0000B91C /* MiUserDefault */,
+				0993A9E327A29E4D0000B91C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0993A9E327A29E4D0000B91C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0993A9E227A29E4D0000B91C /* MiUserDefault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0993A9E427A29E4D0000B91C /* MiUserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA1027A329E70000B91C /* Utils+Helpers */,
+				0993AA0127A2A0310000B91C /* Sources */,
+				0993A9FC27A29EAD0000B91C /* CoreApp */,
+				0993A9EE27A29E4D0000B91C /* Assets.xcassets */,
+				0993A9F027A29E4D0000B91C /* LaunchScreen.storyboard */,
+				0993A9F327A29E4D0000B91C /* Info.plist */,
+			);
+			path = MiUserDefault;
+			sourceTree = "<group>";
+		};
+		0993A9FC27A29EAD0000B91C /* CoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				0993A9E527A29E4D0000B91C /* AppDelegate.swift */,
+				0993A9FE27A29F1D0000B91C /* AppCoreCoordinator.swift */,
+			);
+			path = CoreApp;
+			sourceTree = "<group>";
+		};
+		0993AA0127A2A0310000B91C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA2327A32FCF0000B91C /* ListaCocheView */,
+				0993AA1C27A32F970000B91C /* ListaPostView */,
+				0993AA1527A32F6D0000B91C /* HomeView */,
+				0993AA0227A2A03A0000B91C /* RegistroView */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0993AA0227A2A03A0000B91C /* RegistroView */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA0327A2A0530000B91C /* RegistroViewController.swift */,
+				0993AA0427A2A0530000B91C /* RegistroViewController.xib */,
+				0993AA0927A2A0640000B91C /* RegistroCoordinator.swift */,
+			);
+			path = RegistroView;
+			sourceTree = "<group>";
+		};
+		0993AA1027A329E70000B91C /* Utils+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA5727A3FBC10000B91C /* Utils.swift */,
+			);
+			path = "Utils+Helpers";
+			sourceTree = "<group>";
+		};
+		0993AA1527A32F6D0000B91C /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA1627A32F8C0000B91C /* HomeViewController.swift */,
+				0993AA1727A32F8C0000B91C /* HomeViewController.xib */,
+				0993AA3127A331600000B91C /* HomeViewCoordinator.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		0993AA1C27A32F970000B91C /* ListaPostView */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA1D27A32FCC0000B91C /* ListaPostsViewController.swift */,
+				0993AA1E27A32FCC0000B91C /* ListaPostsViewController.xib */,
+				0993AA2E27A3308C0000B91C /* ListaPostsCoordinator.swift */,
+			);
+			path = ListaPostView;
+			sourceTree = "<group>";
+		};
+		0993AA2327A32FCF0000B91C /* ListaCocheView */ = {
+			isa = PBXGroup;
+			children = (
+				0993AA2427A32FF30000B91C /* ListaCochesViewController.swift */,
+				0993AA2827A330370000B91C /* ListaCochesViewController.xib */,
+				0993AA2B27A3307C0000B91C /* ListaCochesCoordinator.swift */,
+			);
+			path = ListaCocheView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0993A9E127A29E4D0000B91C /* MiUserDefault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0993A9F627A29E4D0000B91C /* Build configuration list for PBXNativeTarget "MiUserDefault" */;
+			buildPhases = (
+				0993A9DE27A29E4D0000B91C /* Sources */,
+				0993A9DF27A29E4D0000B91C /* Frameworks */,
+				0993A9E027A29E4D0000B91C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiUserDefault;
+			productName = MiUserDefault;
+			productReference = 0993A9E227A29E4D0000B91C /* MiUserDefault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0993A9DA27A29E4D0000B91C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0993A9E127A29E4D0000B91C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0993A9DD27A29E4D0000B91C /* Build configuration list for PBXProject "MiUserDefault" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0993A9D927A29E4D0000B91C;
+			productRefGroup = 0993A9E327A29E4D0000B91C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0993A9E127A29E4D0000B91C /* MiUserDefault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0993A9E027A29E4D0000B91C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0993AA2027A32FCC0000B91C /* ListaPostsViewController.xib in Resources */,
+				0993AA2927A330370000B91C /* ListaCochesViewController.xib in Resources */,
+				0993AA0627A2A0530000B91C /* RegistroViewController.xib in Resources */,
+				0993A9F227A29E4D0000B91C /* LaunchScreen.storyboard in Resources */,
+				0993A9EF27A29E4D0000B91C /* Assets.xcassets in Resources */,
+				0993AA1927A32F8C0000B91C /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0993A9DE27A29E4D0000B91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0993A9E627A29E4D0000B91C /* AppDelegate.swift in Sources */,
+				0993AA2C27A3307C0000B91C /* ListaCochesCoordinator.swift in Sources */,
+				0993AA0527A2A0530000B91C /* RegistroViewController.swift in Sources */,
+				0993AA2F27A3308C0000B91C /* ListaPostsCoordinator.swift in Sources */,
+				0993AA3227A331600000B91C /* HomeViewCoordinator.swift in Sources */,
+				0993AA2527A32FF30000B91C /* ListaCochesViewController.swift in Sources */,
+				0993A9FF27A29F1D0000B91C /* AppCoreCoordinator.swift in Sources */,
+				0993AA5827A3FBC10000B91C /* Utils.swift in Sources */,
+				0993AA0A27A2A0640000B91C /* RegistroCoordinator.swift in Sources */,
+				0993AA1827A32F8C0000B91C /* HomeViewController.swift in Sources */,
+				0993AA1F27A32FCC0000B91C /* ListaPostsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0993A9F027A29E4D0000B91C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0993A9F127A29E4D0000B91C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0993A9F427A29E4D0000B91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0993A9F527A29E4D0000B91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0993A9F727A29E4D0000B91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiUserDefault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.education.juliorodriguez.Tecnologia.IOS.MiUserDefault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0993A9F827A29E4D0000B91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiUserDefault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.education.juliorodriguez.Tecnologia.IOS.MiUserDefault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0993A9DD27A29E4D0000B91C /* Build configuration list for PBXProject "MiUserDefault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0993A9F427A29E4D0000B91C /* Debug */,
+				0993A9F527A29E4D0000B91C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0993A9F627A29E4D0000B91C /* Build configuration list for PBXNativeTarget "MiUserDefault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0993A9F727A29E4D0000B91C /* Debug */,
+				0993A9F827A29E4D0000B91C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0993A9DA27A29E4D0000B91C /* Project object */;
+}
